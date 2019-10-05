@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Projeto 2 - Aplicações Híbridas</title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="styles/materialize.css">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+
+    <script type="text/javascript" src="scripts/jquery-3.3.1.js"></script>
+
+    <link rel="manifest" href="/manifest.json">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Template PWA">
+    <link rel="apple-touch-icon" href="images/icons/icon-152x152.png">
+
+    <meta name="msapplication-TileImage" content="images/icons/icon-144x144.png">
+    <meta name="msapplication-TileColor" content="#2F3BA2">
+
+    <link rel="icon"
+         type="image/png"
+         href="images/icons/icon-144x144.png">
+  </head>
+  <body>
+
+    <nav>
+      <div class="nav-wrapper blue darken-4">
+        <a href="#" class="brand-logo center">Projeto 2 - Aplicações híbridas</a>
+      </div>
+    </nav>
+    <style>
+      #dados {
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+      #dados td, #dados th {
+        border: 1px solid #ddd;
+        padding: 8px;
+      }
+      
+      #dados tr:nth-child(even){background-color: #f2f2f2;}
+      
+      #dados tr:hover {background-color: #ddd;}
+      
+      #dados th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #0D47A1 ;
+        color: white;
+      }
+      </style>
+    <main class="container">
+      <div class="row" style="margin-top:50px">
+        <div class="col s12" style = "font-weight: bold">
+          <table id="dados">
+            <tr>
+              <th>Elemento questionado</th>
+              <th>Resposta</th>
+            </tr>
+            <tr>
+              <td>Comida</td>
+              <td id = "comida"></td>
+            </tr>
+            <tr>
+              <td>Bebida</td>
+              <td id = "bebida"></td>
+            </tr>
+            <tr>
+              <td>Animal</td>
+              <td id = "animal"></td>
+            </tr>
+            <tr>
+              <td>Cor</td>
+              <td id = "cor"></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </main>
+
+    <script type="text/javascript" src="scripts/aplicacao2.js"></script>
+  </body>
+</html>
