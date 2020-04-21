@@ -1,11 +1,11 @@
 {
-  "name": "pwa-puc",
-  "version": "1.0.0",
-  "description": "",
-  "main": "service-worker.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Breno, Luiz F., Luiz, Carlos",
-  "license": "ISC"
+    "name": "pwa-projeto-1",
+    "version": "1.0.0",
+    "description": "",
+    "main": "service-worker.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Angelo Diniz",
+    "license": "ISC"
 }
